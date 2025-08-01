@@ -12,7 +12,7 @@ import DoctorsList from './pages/Admin/DoctorsList.jsx';
 import { DoctorContext } from './context/DoctorContext.jsx';
 import DoctorAppointments from './pages/Doctor/DoctorAppointments.jsx';
 import DoctorProfile from './pages/Doctor/DoctorProfile.jsx';
-import DoctorDashboard from './pages/Doctor/doctorDashboard.jsx';
+import DoctorDashboard from './pages/Doctor/DoctorDashboard.jsx';
 
 const App = () => {
   const {aToken} = useContext(AdminContext);
